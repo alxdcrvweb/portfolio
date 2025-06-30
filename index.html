@@ -12,18 +12,81 @@
       <p>Frontend Developer / Web3 Projects</p>
     </header> -->
 
-    <section id="about">
+    <header class="site-header">
+      <div class="container">
+        <h1>
+          <a href="#about"
+            ><img class="logo" src="./assets/logo.png" alt="Logo"
+          /></a>
+        </h1>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <div class="background-waves"></div>
+    <section id="about" class="about">
       <h2>About Me</h2>
       <p>
-        I build responsive, fast, and modern web interfaces using React,
-        Next.js, and Web3 tools.
+        Hi, my name is Alex! I'm a Frontend Developer with 4 years of experience
+        building full-featured web applications from scratch and optimizing
+        existing codebases.
+      </p>
+      <p>
+        I specialize in creating fast, responsive, and maintainable user
+        interfaces, focusing on clean architecture and long-term scalability. My
+        core stack includes React, Vue, Next.js, and TypeScript, along with
+        state management tools like MobX, Zustand, and Redux. I use Tailwind
+        CSS, CSS Modules, Sass, and Figma to bring UI designs to life with
+        precision and consistency.
+      </p>
+      <p>
+        On the backend side, I’ve worked with Node.js, using Express, NestJS,
+        and Next.js API routes to build RESTful APIs and backend services. I’m
+        also familiar with MongoDB, PostgreSQL, and integrating third-party
+        services (like Moralis, Alchemy, etc.) into modern Web3 applications.
+      </p>
+      <p>
+        I’ve developed and maintained Web3-based platforms, including NFT
+        collections, staking systems, trading dashboards, and social-fi
+        applications. I’m comfortable working with ethers.js, web3.js, wallet
+        integrations, and blockchain data indexing.
+      </p>
+      <p>
+        In terms of DevOps and infrastructure, I’ve deployed projects on Vercel,
+        VPS, and configured environments using Docker, GitHub Actions, and CI/CD
+        pipelines. I use Git for version control and have worked in
+        collaborative environments, following best practices like feature
+        branching and atomic commits.
+      </p>
+      <p>
+        I enjoy solving challenging technical problems, improving performance,
+        and refactoring legacy code to align with modern standards.
+      </p>
+      <p>
+        Currently, I’m looking for opportunities where I can contribute to
+        meaningful projects, grow as an engineer, and work in a team that values
+        code quality, autonomy, and good design.
+      </p>
+      <p style="margin-top: 1em">
+        GitHub:
+        <a href="https://github.com/alxdcrvweb" target="_blank"
+          >github.com/alxdcrvweb</a
+        >
+        (active),
+        <a href="https://github.com/alexdcrv" target="_blank"
+          >github.com/alexdcrv</a
+        >
+        (old archive)
       </p>
     </section>
-    <section id="projects">
+    <section id="projects" class="projects">
       <h2>Projects</h2>
       <div class="project-card">
         <div class="project-left">
-          <h3>Onchain Coin – Layer 3 Web3 Ecosystem</h3>
+          <h3>Onchain</h3>
           <p>
             Onchain Coin is a gamified Web3 platform that rewards users for
             on-chain activity. It features wallet-based scoring, a tap-to-earn
@@ -45,7 +108,7 @@
               <img src="./assets/github.svg" alt="Git"
             /></a>
             <a
-              href="https://defillama.com/protocol/frensly"
+              href="https://x.com/onchaincoin"
               target="_blank"
               class="github-link"
               ><img src="./assets/X.svg" alt="X"
@@ -72,7 +135,7 @@
       <div class="projects-container">
         <div class="project-card">
           <div class="project-left">
-            <h3>Crypterra – Web3 NFT Card Game</h3>
+            <h3>Crypterra</h3>
             <p>
               Crypterra is a Web3 card-based game where players mint NFT units
               and send squads on expeditions to earn in-game currency.
@@ -91,7 +154,7 @@
                 <img src="./assets/github.svg" alt="Git"
               /></a>
               <a
-                href="https://defillama.com/protocol/frensly"
+                href="https://x.com/crypterra_app"
                 target="_blank"
                 class="github-link"
                 ><img src="./assets/X.svg" alt="X"
@@ -101,7 +164,7 @@
 
           <div class="project-image">
             <a
-              href="https://github.com/yourusername/crypterra"
+              href="https://crypterra.alexdcrv.site"
               target="_blank"
               class="project-link"
             >
@@ -113,7 +176,49 @@
 
       <div class="project-card">
         <div class="project-left">
-          <h3>Frensly – Next‑Gen SocialFi Platform</h3>
+          <h3>Morpheus</h3>
+          <p>
+            Collection of original NFT artworks with rich narrative elements.
+            Embark on a unique journey through an alternative reality. Built
+            natively on Base and integrated with Farcaster.
+          </p>
+          <p class="role">
+            Role: Frontend engineer behind smooth UI and seamless blockchain
+            integration. Crafted UX with attention to detail, optimized for
+            performance.
+          </p>
+          <div class="project-bottom">
+            <a
+              href="https://github.com/alxdcrvweb/Morpheus"
+              target="_blank"
+              class="github-link"
+            >
+              <img src="./assets/github.svg" alt="Git"
+            /></a>
+            <a href="https://x.com/mrphsNFT" target="_blank" class="github-link"
+              ><img src="./assets/X.svg" alt="X"
+            /></a>
+            <a
+              href="https://farcaster.xyz/~/channel/morpheus"
+              target="_blank"
+              class="github-link"
+              ><img src="./assets/farcaster.png" alt="DefiLama"
+            /></a>
+          </div>
+        </div>
+        <div class="project-image">
+          <a
+            href="https://www.mrphs.online/showdown"
+            target="_blank"
+            class="project-link"
+          >
+            <img src="./assets/mrphs.png" alt="mrphs dashboard screenshot" />
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-left">
+          <h3>Frensly</h3>
           <p>
             Frensly is a next‑generation SocialFi app built on Base, combining
             social interactions and effective trading tools. Users build
@@ -163,19 +268,90 @@
           </a>
         </div>
       </div>
+      <div class="project-card">
+        <div class="project-left">
+          <h3>Mine Barons</h3>
+          <p>
+            A Web3 game concept introducing tradable resource tokens with a
+            decentralized in-game economy. Marketplace pricing is intended to be
+            governed by player-driven supply and demand. The game design
+            envisions open trading and on-chain asset management.
+          </p>
+          <p class="role">
+            Role: Developed core frontend logic and integrated on-chain minting
+            and staking features. Implemented wallet connection, smart contract
+            interactions, and UI for tokenized assets. Contributed to the
+            initial phase of development before the project was paused.
+          </p>
+          <div class="project-bottom">
+            <a
+              href="https://github.com/alxdcrvweb/barons"
+              target="_blank"
+              class="github-link"
+            >
+              <img src="./assets/github.svg" alt="Git"
+            /></a>
+            <a
+              href="https://x.com/minebarons"
+              target="_blank"
+              class="github-link"
+              ><img src="./assets/X.svg" alt="X"
+            /></a>
+            <a
+              href="https://wiki.minebarons.io/"
+              target="_blank"
+              class="github-link"
+              ><img src="./assets/wiki.png" alt="Wiki"
+            /></a>
+          </div>
+        </div>
+        <div class="project-image">
+          <a
+            href="https://beta.minebarons.io/"
+            target="_blank"
+            class="project-link"
+          >
+            <img
+              src="./assets/minebarons.png"
+              alt="mrphs dashboard screenshot"
+            />
+          </a>
+        </div>
+      </div>
     </section>
-
-    <section id="contact">
+    <section>
+      <h2>Landing pages</h2>
+      <div class="landing">
+        <a href="https://jigen.alexdcrv.site" target="_blank"
+          ><img src="./assets/jigen.png" alt="Landing page"
+        /></a>
+        <a href="https://adev.alexdcrv.site" target="_blank"
+          ><img src="./assets/adev.png" alt="Landing page"
+        /></a>
+        <a href="https://mon.alexdcrv.site" target="_blank"
+          ><img src="./assets/mon.png" alt="Landing page"
+        /></a>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
       <h2>Contact</h2>
-      <ul>
-        <li>Email: you@example.com</li>
-        <li>Telegram: @yourhandle</li>
-        <li>GitHub: github.com/yourusername</li>
-      </ul>
+      <p>I'm open to work, collaborations, or just a friendly chat.</p>
+      <div class="contact-links">
+        <p>
+          <a href="mailto:alexdcrv@gmail.com">alexdcrv@gmail.com</a>
+        </p>
+        <p>
+          <a href="https://t.me/alexdcrv" target="_blank">t.me/alexdcrv</a>
+        </p>
+        <p>
+          <a href="https://github.com/alxdcrvweb" target="_blank"
+            >github.com/alxdcrvweb</a
+          >
+        </p>
+      </div>
     </section>
-
     <footer>
-      <p>&copy; 2025 Alex Dikarev</p>
+      <div>&copy; 2025 Alex Dikarev</div>
     </footer>
 
     <script src="script.js"></script>
