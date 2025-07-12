@@ -34,6 +34,12 @@ br {
   object-fit: cover;
   transition: transform 0.2s;
 }
+@media (max-width: 990px) {
+  .landing {
+    flex-direction: column;
+  }
+  
+}
 .landing img:hover {
   transform: scale(1.05);
 }
